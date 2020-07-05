@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 const prefix = "!";
-client.login("NzI3NjYyOTEzODU0Mzc0MDMw.XvvG-w.6fgDv5drcw1dqIiPTKSQRxwhdys");
+client.login("process.env.TOKEN");
 
 let clearValue;
 
